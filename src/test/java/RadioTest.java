@@ -12,6 +12,7 @@ class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
+
     @Test
     public void shouldMinStationNumber() {
         Radio radio = new Radio();
